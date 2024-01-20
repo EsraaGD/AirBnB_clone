@@ -5,6 +5,7 @@
     width: 25%;
     box-sizing: border-box;
     vertical-align: top;
+    position: relative;
 }
 
 .locations {
