@@ -1,0 +1,33 @@
+.locations,
+.amenities {
+    display: inline-block;
+    height: 100%;
+    width: 25%;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.locations {
+    border-right: 1px solid #ddd;
+}
+
+.filters h3 {
+    font-weight: 600;
+    height: 50%;
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.filters h4 {
+    font-size: 14px;
+    font-weight: 400;
+    height: 50%;
+    margin: 0;
+    padding-left: 40px;
+    display: flex;
+    align-content: center;
+    line-height: 10%;
+}
