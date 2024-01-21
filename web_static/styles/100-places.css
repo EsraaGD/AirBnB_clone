@@ -1,0 +1,120 @@
+.places {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.places article {
+    border: 1px solid #ff5a5f;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    width: 390px;
+}
+
+.places h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: .67em 0;
+    width: 100%;
+    text-align: left;
+}
+
+.places h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.information {
+    align-self: center;
+    height: 150px;
+    width: 100%;
+    border-top: 1px solid #dddddd;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article .amenities,
+article .reviews {
+    margin-top: 40px;
+    width: 100%;
+}
+
+article .amenities h2 {
+    font-size: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dddddd;
+    position: relative;
+    left: 0px;
+    text-align: left;
+}
+
+article .Reviews h2 {
+    font-size: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+}
+
+article .amenities ul {
+    padding-left: 0;
+    left: -60px;
+}
+
+article .Reviews ul {
+    padding-left: 0;
+    text-align: left;
+}
+
+article .amenities li {
+    list-style-type: none;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+article .Reviews li {
+    list-style-type: none;
+}
+
+article .Reviews h3 {
+    font-size: 14px;
+    margin: 5px auto;
+}
+
+article .Reviews {
+    font-size: 12px;
+    margin: 5px auto 20px auto;
+}
+
+.TV {
+    background-image: url(../images/TV.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.wifi {
+    background-image: url(../images/wifi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.pets {
+    background-image: url(../images/pets.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+}
